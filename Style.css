@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box; /* يضمن أن الـ padding والـ border لا تزيد من عرض وارتفاع العنصر */
+    margin: 0;
+    padding: 0
+}
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: 'Figtree', sans-serif;
+    display: grid;
+    place-items: center;       /* اختصار لتوسيط أفقي وعمودي */
+    min-height: 100vh;
+}
+
+
+.Blog {
+    max-width: 375px;
+    width: 90%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    margin: 0px;
+    border:solid black;
+        border-radius: 16px; /* حواف مستديرة */
+    box-shadow: 8px 8px 0px 0px rgba(0, 0, 0, 1); /* ظل أسود جريء */
+    padding: 24px; 
+}
+img {
+    position:relative;
+    top: 5%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin: 0px;
+
+}
+.title{
+    position: relative;
+    background-color: hsl(47, 88%, 63%);
+    display: inline-block;
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-weight: 800;
+    font-size: 0.8rem;
+    margin-top: 20px; /* مسافة بعد الصورة */
+}
+.date{
+    font-size: 1rem;
+    margin-top: 12px;
+}
+h3{
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-bottom: 12px;
+    color: hsl(0, 0%, 7%);
+    margin: 0px;
+}
+.description{
+    font-size: 1.1rem;
+    margin-top: 12px;
+    color: hsl(220, 9%, 46%);
+    margin: 0px;
+}
+.author-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.author{
+    display: flex;
+    align-items: center;
+}
+.author-name{
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
